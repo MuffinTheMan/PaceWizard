@@ -4,14 +4,30 @@
         <script type="text/javascript" src="../lib/PaceWizard.js"></script>
     </head>
     
-    <body>
+    <body id="body">
         
         <script>
             
-            var dist = "1.86mi";
-            var time = "10";
+            var body = document.getElementById("body");
             
-            race_pace(dist, time);
+            var dist = "1.86mi";
+            var time = "00:12:26";
+            
+            body.innerHTML += race_pace(dist, time);
+            
+            body.innerHTML += "</p><hr></p>";
+            
+            var dist = "1.86km";
+            var time = "00:12:26";
+            
+            body.innerHTML += race_pace(dist, time);
+            
+            body.innerHTML += "</p><hr></p>";
+            
+            var dist = "1.86m";
+            var time = "00:12:26";
+            
+            body.innerHTML += race_pace(dist, time);
             
         </script>
         
