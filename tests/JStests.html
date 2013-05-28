@@ -1,6 +1,7 @@
 <html>
     
     <head>
+        <link rel='stylesheet' type='text/css' href='JStests.css' />
         <script type="text/javascript" src="../lib/PaceWizard.js"></script>
     </head>
     
@@ -13,21 +14,28 @@
             var dist = "1.86mi";
             var time = "00:12:26";
             
-            body.innerHTML += race_pace(dist, time);
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
+            
+            body.innerHTML += "</p><hr></p>";
+            
+            var dist = ".25mi";
+            var time = "00:00:60";
+            
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
             
             body.innerHTML += "</p><hr></p>";
             
             var dist = "1.86km";
             var time = "00:12:26";
             
-            body.innerHTML += race_pace(dist, time);
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
             
             body.innerHTML += "</p><hr></p>";
             
             var dist = "1.86m";
             var time = "00:12:26";
             
-            body.innerHTML += race_pace(dist, time);
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
             
         </script>
         
