@@ -1,4 +1,4 @@
-# Pace Wizard
+# PaceWizard
 
 A tool to calculate your run pace.
 
