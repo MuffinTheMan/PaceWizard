@@ -79,6 +79,15 @@
             
             body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
             
+            // ===== ===== ===== ===== //
+            body.innerHTML += "</p><hr></p>";
+            
+            var dist = "2mi";
+            var time = "00:12:26";
+            var split = ".25mi";
+            
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Split: " + split + "</p>Output (seconds for split): " + split_pace(dist, time, split);
+            
         </script>
         
     </body>
