@@ -18,6 +18,13 @@
             
             body.innerHTML += "</p><hr></p>";
             
+            var dist = "8km";
+            var time = "00:26:13.67";
+            
+            body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
+            
+            body.innerHTML += "</p><hr></p>";
+            
             var dist = ".25mi";
             var time = "00:00:60";
             
@@ -39,7 +46,7 @@
             
             body.innerHTML += "</p><hr></p>";
             
-            var dist = "3km";
+            var dist = "3000m";
             var time = "00:11:00";
             
             body.innerHTML += "Distance: " + dist + "</p>Time: " + time + "</p>Output (mile pace): " + race_pace(dist, time);
